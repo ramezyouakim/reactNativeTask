@@ -61,7 +61,7 @@ OfferInformationComponent = (props) => {
                         maximumValue={100}
                         step={1}
                         thumbTintColor={colors.white}
-                        thumbStyle={[styles.thumb, styles.shadowBox]}
+                        thumbStyle={styles.shadowBox}
                         onValueChange={(value) => setInterests(value)}
 
                         customMinimumTrack={

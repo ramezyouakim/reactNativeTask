@@ -13,15 +13,15 @@ const styles = StyleSheet.create({
         padding: 25
     },
     creditScoreDetailsContainer: {
-        flex: 1,
+        flex: 3,
         flexDirection: 'column',
-        marginLeft: 20,
+        marginLeft: 30,
         marginRight: 10
     },
     scoreContainer: {
         flexDirection: 'column',
         alignContent: 'center',
-        marginRight: 30
+        marginRight: 20
     },
     rowSpaceBetween: {
         flex: 1,
@@ -34,9 +34,10 @@ const styles = StyleSheet.create({
         width: 15,
         resizeMode: 'contain'
     },
+    userProfilePictureContainer: {
+        flex: 1
+    },
     userProfilePicture: {
-        height: 90,
-        width: 90,
         borderColor: colors.blue,
         borderWidth: 7,
         borderRadius: 100,
@@ -50,7 +51,7 @@ const styles = StyleSheet.create({
         marginBottom: 10,
     },
     scoreTitle: {
-        fontSize: 12,
+        fontSize: 10,
         color: colors.gray
     },
     scoreValue: {
@@ -85,62 +86,57 @@ const styles = StyleSheet.create({
         shadowColor: colors.black,
         shadowOffset: {
             width: 0,
-            height: 6,
+            height: 3,
         },
-        shadowOpacity: 0.37,
-        shadowRadius: 7.49,
-        elevation: 12,
+        shadowOpacity: 0.27,
+        shadowRadius: 4.65,
+        elevation: 5,
     },
-    OfferInformationMainContainer:{
-        backgroundColor:colors.white,
-        flexDirection:'column',
+    OfferInformationMainContainer: {
+        backgroundColor: colors.white,
+        flexDirection: 'column',
         marginTop: 25
     },
-    OfferInformationItem:{
-        marginLeft:30
-    },  
-    OfferInfoItemTitle:{
-        color:colors.purple,
-        fontSize:13
+    OfferInformationItem: {
+        marginLeft: 30
     },
-    OfferInfoItemDetail:{
-        flexDirection:'row',
-        marginTop:10
+    OfferInfoItemTitle: {
+        color: colors.purple,
+        fontSize: 13
     },
-    OfferInformationItemDetailNumber:{
-        fontSize:23,  
+    OfferInfoItemDetail: {
+        flexDirection: 'row',
+        marginTop: 10
     },
-    OfferInformationItemDetailSymbol:{
-        marginTop:4,
-        marginRight:5,
-        fontSize:13
+    OfferInformationItemDetailNumber: {
+        fontSize: 23,
     },
-    OfferInfoRow:{
-        flexDirection:'row',
-        paddingTop:20
+    OfferInformationItemDetailSymbol: {
+        marginTop: 4,
+        marginRight: 5,
+        fontSize: 13
     },
-    Btn:{
-        marginTop:15,
-        borderRadius:5,
-        borderColor:colors.gray,
-        borderWidth:0.5
+    OfferInfoRow: {
+        flexDirection: 'row',
+        paddingTop: 20
     },
-    buttonText:{
-        color:colors.white,
-        fontWeight:'bold',
-        textAlign:'center',
-        padding:15
+    Btn: {
+        backgroundColor: colors.white,
+        marginTop: 15,
+        borderRadius: 5,
     },
-    annualContainer:{
-        margin:30
+    buttonText: {
+        color: colors.white,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        padding: 15
     },
-    thumb:{
-        borderColor:colors.gray,
-        borderWidth:0.5
+    annualContainer: {
+        margin: 30
     },
-    silder:{
-        marginTop:20,
-        marginBottom:30
+    silder: {
+        marginTop: 20,
+        marginBottom: 30
     }
 });
 

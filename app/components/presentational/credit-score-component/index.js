@@ -22,10 +22,12 @@ import {
 CreditScoreComponent = (props) => {
     return (
         <View style={styles.creditScoreMainContainer}>
-            <Image
-                style={styles.userProfilePicture}
-                source={props.profilePicture}
-            />
+            <View style={styles.userProfilePictureContainer}>
+                <Image
+                    style={styles.userProfilePicture}
+                    source={props.profilePicture}
+                />
+            </View>
             <View style={styles.creditScoreDetailsContainer}>
                 <Text style={styles.username}>{props.username}</Text>
                 <View style={[styles.rowSpaceBetween,
